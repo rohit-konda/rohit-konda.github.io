@@ -1,6 +1,8 @@
 /* Navigation */
 .topnav {
-
+  background-color: yellow;
+  position: absolute;
+  width: 100vw;
 }
 
 .topnav a.center {
@@ -32,3 +34,14 @@
 .toprightnav a:hover {
   color: red;
 }
+
+
+/* AboutMe */
+
+.about {
+  position: absolute;
+  width: 100vw;
+  align-content: center;
+}
+
+
