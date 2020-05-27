@@ -4,95 +4,105 @@
 	<!-- Overall Stuff-->
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Rohit Konda</title>
 	<link rel="icon" href="files/ece_logo.png">
+	<title>Rohit Konda</title>
 	
     <!-- Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700">
 
 	<!-- Style -->
-	<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/pure-min.css" integrity="sha384-oAOxQR6DkCoMliIh8yFnu25d7Eq/PHS21PClpwjOTeU2jRSq11vu66rf90/cZr47" crossorigin="anonymous">
+	<link rel="stylesheet" href="foundation/css/foundation.min.css">
+	<link rel="stylesheet" href="foundation/css/app.css">
 	<link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-<div class="header">
-    <div class="home-menu pure-menu pure-menu-horizontal">
-        <ul class="pure-menu-list">
-            <li class="pure-menu-item pure-menu-selected"><a href="index.html" class="pure-menu-link">Home</a></li>
-            <li class="pure-menu-item"><a href="pub.html" class="pure-menu-link">Research</a></li>
-        </ul>
-    </div>
+<!--Content -->
+
+<body style="background-color: #F7F9FB">
+
+<!-- Header -->
+<div class="top-bar" class="nav">
+	<div class="top-bar-left">
+		<ul class="menu">
+			<li class="menu-text nav title">Rohit Konda</li>
+		</ul>
+	</div>
+	<div class="top-bar-right">
+		<ul class="menu">
+			<li><a class="nodec nav" href="index.html">Home</a></li>
+			<li><a class="nodec nav" href="res.html">Research</a></li>
+		</ul>
+	</div>
 </div>
+
+<div class="grid-x" style="background-color: #E6E6E6">
+	<div class="cell large-2"></div>
+  	<div class="cell large-4" style="padding-top: 50px; padding-bottom: 50px">
+  		<img style="border: 5px solid black;" width="300px" src="files/photo.jpg"/>
+  	</div>
+	<div class="cell large-1"></div>
+	<div class="cell large-5" style="padding-top: 50px;">
+		<h4 class="sec">About Me</h4>
+		<ul class="nolist par">
+			<li style="list-style: none; padding-left: none;">1<sup>st</sup> Year Graduate Student</li>
+			<li><a class="nodec" href="https://www.ece.ucsb.edu/">Electrical and Computer Engineering</a></li>
+			<li><a class="nodec" href="http://ece.ucsb.edu">University of Santa Barbara</a></li>
+			<li><b>Advisor</b><a class="nodec" href="https://web.ece.ucsb.edu/~jrmarden/"> Jason Marden</a></li>
+			<li><b>Email</b> rkonda AT ucsb.edu</li>
+			<li><b>Phone</b> 678 549 1410</li>
+			<li><b>Office</b> Harold Frank Hall 3112</li>
+		</ul>
+
+		<div style="padding-top: 10px;">
+			<a class="loglink" href="https://scholar.google.com/citations?user=VAUUYtoAAAAJ&hl=en">
+				<img src="files/gsch.svg" width="27">
+			</a>
+			&emsp;
+			<a class="loglink" href="https://orcid.org/0000-0002-0423-5531">
+				<img src="files/ORCID_iD.svg" width="24">
+			</a>
+			&emsp;
+			<a class="loglink" href="https://github.com/rohit-konda">
+				<img src="files/github-logo.svg" width="24">
+			</a>
+			&emsp;
+			<a class="loglink" href="files/CV.pdf">
+				<img src="files/cv.svg" width="28">
+			</a>
+		</div>
+	</div>
+</div>
+
+<div class="grid-x" style="padding-top: 50px;">
+	<div class="cell large-2"></div>
+	<div class="cell large-8">
+		<div>
+			<h5 class="sec">Research Summary</h5>
+			<p class="par">
+				My research lies in cross section of game theory, optimization, and control. I'm interested in applying these tools to analyze networked and multiagent systems and designing distributed algorithms that achieve close to optimal performance.
+			</p>
+		</div>
+
+		<div class="padded-up">
+			<h5 class="sec">News</h5>
+			<ul class="par nolist">
+				<li><b>Sep. 2019:</b> Joined UC Santa Barbara as a new PhD student</li>
+				<li><b>Aug. 2018:</b> Presented paper in Hong Kong at CCTA</li>
+				<li><b>Aug. 2018:</b> Graduated with a Masters from Georgia Tech</li>
+				<li><b>Mar. 2018:</b> Paper accepted to CCTA</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+
+<footer class="grid-x">
+	<div class="cell large-2"></div>
+	<div class="cell large-8 par" style="font-size: 8pt; padding-top: 50px">
+		<hr>
+		&copy; 2020 Rohit Konda
+	</div>
+</footer>
 
 
 </body>
-<!--
-<body>
-<div class="topnav">
-  <a href="index.html" class="center">ROHIT KONDA</a>
-  <div class="toprightnav">
-  	<a href="proj.html">PROJECTS</a>
-  	<a href="pub.html">PUBLICATIONS</a>
-    <a href="index.html">ABOUT</a>
-  </div>
-</div>
-
-<div class="fade-in">
-<img class="photo" src="photo.jpg">
-<div class="about">
-	<p> 
-		<span class="heading">
-			About Me
-		</span>
-		<hr align="left"> 
-	<span class=line>
-		1<sup>st</sup> Year Graduate Student<br>
-		Electrical and Computer Engineering<br>
-		<a class="nodec" href="http://ece.ucsb.edu">University of Santa Barbara</a><br>
-		<b>Advisor</b><a class="nodec" href="https://web.ece.ucsb.edu/~jrmarden/"> Jason Marden</a><br>
-	    <b>Email</b> rkonda AT ucsb.edu<br>
-	    <b>Phone</b> 678 549 1410<br>
-	    <b>Office</b> Harold Frank Hall 3112<br>
-	</span>
-	</p>  
-</div>
-
-<a href="CV.pdf" class="box CV">CV</a>
-<a href="https://scholar.google.com/citations?user=VAUUYtoAAAAJ&hl=en" class="box scholar">Scholar</a>
-<a href="https://scholar.google.com/citations?user=VAUUYtoAAAAJ&hl=en" class="box arxiv">Arxiv</a>
-<a href="https://github.com/rohit-konda" class="box github">GitHub</a>
-
-
-<div class="RI"> 
-	<p>
-		<span class="heading">
-			Research Interests 
-		</span>
-		<hr align="left">
-		<span class="line">
-			My research focuses the applications of game theory and optimization to multiagent coordination and optimization. Some problem scopes that I am interested in include autonomy, traffic routing, and robotic systems. 
-		</span>
-	</p>
-</div>
-
-
-<div class="recent"> 
-	<p>
-		<span class="heading">
-			Recent News
-		</span>
-		<hr align="left">
-	</p>
-	<div class="boxrec">
-		<b>Sep. 2019</b><span class="new">Joined UC Santa Barbara as a new PhD student</span>
-	</div>
-	<div class="boxrec">
-		&nbsp
-	</div>
-</div>
-</div>
-
-</body>
--->
 </html>
