@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Rohit Konda
 repository          : rohit-konda/rohit-konda.github.io
-description         : My current research focus is on algorithm design for complex systems that have provable guarantees on system behavior. Respectively, my work uses tools from control theory, optimization, and game theory and has deep implications in robotics, automation, and heavy industry, as well socio-technical systems.
+description         : Aspiring Researcher interested in control algorithm design for practical systems via a theoretical approach.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
@@ -23,25 +23,11 @@ nav_exclude:                                            # The following paths ar
 author:
   name              : Rohit Konda
   image             : /files/profile.jpg
-  # behance           : your_username
-# dribbble          : your_username
   email             : rkonda@ucsb.com
-  # facebook          : your_username
+  scholar           : VAUUYtoAAAAJ&hl=en
   github            : rohit-konda
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
-  linkedin          : your_username
-  # medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-  # twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
+  linkedin          : rohit-konda-bb916b250
+  orcid             : 0000-0002-0423-5531
 
 
 ### Posts ###

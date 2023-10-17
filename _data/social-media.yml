@@ -1,6 +1,37 @@
 # Get Icons  from : https://fontawesome.com/icons
 # Get Colors from : https://brandcolors.net/
 
+email:
+  url   : "mailto:"
+  icon  : fas fa-envelope
+  color : db4437
+
+github:
+  url   : https://www.github.com/
+  icon  : fab fa-github
+  color : 333333
+
+linkedin:
+  url   : https://www.linkedin.com/in/
+  icon  : fab fa-linkedin-in
+  color : 007bb5
+
+orcid:
+  url   : https://orcid.org/
+  icon  : fab fa-github
+  color : 333333
+
+scholar:
+  url   : https://scholar.google.com/citations?user=
+  icon  : fab fa-github
+  color : 333333
+
+
+
+
+
+
+
 behance:
   url   : https://www.behance.net/
   icon  : fab fa-behance
@@ -11,20 +42,10 @@ dribbble:
   icon  : fab fa-dribbble
   color : 444444
 
-email:
-  url   : "mailto:"
-  icon  : fas fa-envelope
-  color : db4437
-
 facebook:
   url   : https://www.facebook.com/
   icon  : fab fa-facebook
   color : 3b5998
-
-github:
-  url   : https://www.github.com/
-  icon  : fab fa-github
-  color : 333333
 
 gitlab:
   url   : https://www.gitlab.com/
@@ -40,11 +61,6 @@ kaggle:
   url   : https://www.kaggle.com/
   icon  : fab fa-kaggle
   color : 20beff
-
-linkedin:
-  url   : https://www.linkedin.com/in/
-  icon  : fab fa-linkedin-in
-  color : 007bb5
 
 medium:
   url   : https://medium.com/@

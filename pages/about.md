@@ -7,13 +7,11 @@ weight: 3
 
 # **About Me**
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Hi I am **{{ site.author.name }}** ,<br>
 
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
+I am a current fifth year PhD student in the Department of Electrical and Computer Engineering at the UC Santa Barbara working under Dr. Jason R. Marden. Previously, I received a Masters degree in Electrical and Computer Engineering at the Georgia Institute of Technology in 2019 while working with Dr. Samuel Coogan and Dr. Magnus Egerstedt. Before that, I received a Bachelor's degree in Biomedical Engineering at the Georgia Institute of Technology in 2018. 
+
+My current research focus is on algorithm design for complex systems that have provable guarantees on system behavior. Respectively, my work uses tools from control theory, optimization, and game theory and has deep implications in robotics, automation, and heavy industry, as well socio-technical systems.
 
 <div class="row">
 {% include about/timeline.html %}
