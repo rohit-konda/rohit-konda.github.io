@@ -1,5 +1,6 @@
 ### Site Settings ###
 title               : Rohit Konda
+repository          : rohit-konda/rohit-konda.github.io
 description         : My current research focus is on algorithm design for complex systems that have provable guarantees on system behavior. Respectively, my work uses tools from control theory, optimization, and game theory and has deep implications in robotics, automation, and heavy industry, as well socio-technical systems.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
