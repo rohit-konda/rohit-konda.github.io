@@ -9,9 +9,9 @@ weight: 3
 
 Hi I am **{{ site.author.name }}** ,<br>
 
-I am a current fifth year PhD student in the Department of Electrical and Computer Engineering at the UC Santa Barbara working under Dr. Jason R. Marden. Previously, I received a Masters degree in Electrical and Computer Engineering at the Georgia Institute of Technology in 2019 while working with Dr. Samuel Coogan and Dr. Magnus Egerstedt. Before that, I received a Bachelor's degree in Biomedical Engineering at the Georgia Institute of Technology in 2018. 
+I am currently a fifth year Ph.D. Candidate in the Department of [Electrical and Computer Engineering]{https://www.ccdc.ucsb.edu} at the [UC Santa Barbara]{https://www.ucsb.edu} working under [Dr. Jason R. Marden]{https://web.ece.ucsb.edu/~jrmarden/}. While I'm particularly interested in theoretical developments in algorithm design, I'm also excited at the budding opportunitites in robotics, automation, and especially bio(socio)-technical systems.
 
-My current research focus is on algorithm design for complex systems that have provable guarantees on system behavior. Respectively, my work uses tools from control theory, optimization, and game theory and has deep implications in robotics, automation, and heavy industry, as well socio-technical systems.
+
 
 <div class="row">
 {% include about/timeline.html %}
