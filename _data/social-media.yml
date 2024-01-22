@@ -16,10 +16,10 @@ linkedin:
   icon  : fab fa-linkedin-in
   color : 007bb5
 
-# scholar:
-#   url   : https://scholar.google.com/citations?user=
-#   icon  : fab fa-book
-#   color : 4285f4
+scholar:
+  url   : https://scholar.google.com/citations?user=
+  icon  : fa-brands fa-google-scholar
+  color : 4285f4
 
 instagram:
   url   : https://www.instagram.com/
