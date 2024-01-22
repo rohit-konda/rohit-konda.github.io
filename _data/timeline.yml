@@ -1,16 +1,16 @@
 - title: Ph. D at UC Santa Barbara
   from: 2019
   to: 2024
-  description: Under the advisement of Dr. Jason Marden, I studied multi-agent systems through game-theoretic and optimization tools. I worked on two main projects in my PhD, analyzing behavior of best-response processes in multi-agent systems and optimizing scheduling algorithms for industrial refrigeration. 
+  description: Under the advisement of Dr. Jason Marden, I studied multi-agent systems through game-theoretic and optimization tools. I worked on two main projects in my PhD - analyzing behavior of best-response processes in multi-agent systems and deriving optimizing scheduling algorithms for industrial refrigeration. 
 
 - title: M.S. at Georgia Institute of Techonology
   from: 2018
   to: 2019
-  description: Under the advisement of Dr. Sam Coogan and Dr. Magnus Egerstedt, I studied correct-by-construction methods in nonlinear control using control barrier functions. I focused on both theoretical developments in this area, as well as exploring potential applications to autonomous driving.
+  description: Under the advisement of Dr. Sam Coogan and Dr. Magnus Egerstedt, I studied correct-by-construction methods in nonlinear control using control barrier functions. I focused on both theoretical developments and as exploring potential applications to autonomous driving.
   
   
 
 - title: B.S. at Georgia Institute of Techonology
   from: 2015
   to: 2018
-  description: Under the advisement of Dr. Rob Butera and Dr. Vineet Tiruvadi, I studied dynamical methods for neuroscience models. I engaged in experimental research with mice models and studied Kuramoto models for models of synchronization. 
+  description: Under the advisement of Dr. Rob Butera and Dr. Vineet Tiruvadi, I studied dynamical methods for neuroscience. I engaged in experimental research with mice models and studied Kuramoto dynamical models for synchronization. 
