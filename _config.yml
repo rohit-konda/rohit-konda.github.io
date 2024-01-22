@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Rohit Konda
 repository          : rohit-konda/rohit-konda.github.io
-description         : Hi, I'm a PhD Candidate studying controls and algorithm design at UCSB. While I'm interested in developing algorithms from a first-principles approach, I'm also excited at budding opportunitites in robotics, automation, and especially bio(socio)-technical systems. For more information about my background, see my [About](/pages/about.md) page.
+description         : Hi, Welcome to my website! For more info, see my About page. To check out some of my ideas, see the Projects or Blog page!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
