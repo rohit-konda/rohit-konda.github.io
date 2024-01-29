@@ -1,7 +1,7 @@
 ---
-name: Best Response 
-tools: [Game Theory]
-image: https://vehnta.com/wp-content/uploads/2021/11/6-Teoria-dei-giochi-1-1080x675.png
-description: Best Response Algorithms are a classical approach to multiagent design. We examine the resulting guarantees.
-external_url: https://arxiv.org/pdf/2204.10364.pdf
+name: Greedy Algorithms with Limited Info
+tools: [Submodular Optimization]
+image: https://miro.medium.com/v2/resize:fit:1400/1*Pc18v-j57nhlUpUN1SMXLA.png
+description: Order has significant effects on the runtime of the greedy algorith min limited information scenarios. We examine the worst case guarantees in this paper.
+external_url: https://arxiv.org/pdf/2111.09154.pdf
 ---
