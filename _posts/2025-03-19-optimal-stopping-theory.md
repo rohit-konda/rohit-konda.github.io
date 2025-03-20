@@ -23,6 +23,13 @@ for i in range(10):
 <details>
   <summary>Click to expand</summary>
   This is the hidden content that appears when you click the summary.
+
+  Inline math: $E = mc^2$
+
+  Block math:
+  $$
+  E = mc^2
+  $$
 </details>
 
 
