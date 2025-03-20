@@ -9,7 +9,7 @@ weight: 3
 
 Hi! I am **{{ site.author.name }}**,<br>
 
-I am currently a fifth year Ph.D. Candidate in the Department of [Electrical and Computer Engineering](https://www.ccdc.ucsb.edu) at the [UC Santa Barbara](https://www.ucsb.edu) working under [Dr. Jason R. Marden](https://web.ece.ucsb.edu/~jrmarden/). A list of my publications can be found at my [Google Scholar](https://scholar.google.com/citations?user=VAUUYtoAAAAJ&hl=en&oi=ao) page.
+I am currently working as an Algorithm Engineer working on problems in satellite autonomy at BlackVe. Before working, I received a Ph.D in the department of [Electrical and Computer Engineering](https://www.ccdc.ucsb.edu) at the [UC Santa Barbara](https://www.ucsb.edu) working under [Dr. Jason R. Marden](https://web.ece.ucsb.edu/~jrmarden/). A list of my publications can be found at my [Google Scholar](https://scholar.google.com/citations?user=VAUUYtoAAAAJ&hl=en&oi=ao) page. Feel free to reach out - I'm always open to collaborations!
 
 <div class="row">
 {% include about/timeline.html %}
