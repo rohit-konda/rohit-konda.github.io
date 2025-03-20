@@ -7,6 +7,15 @@ remote_theme        : YoussefRaafatNasry/portfolYOU
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
+### Latex ###
+markdown: kramdown
+
+kramdown:
+  input: GFM
+  math_engine: mathjax  # Enables MathJax for LaTeX rendering
+  syntax_highlighter: rouge  # Keeps syntax highlighting
+
+
 ### Plugins ###
 plugins:
   - jemoji
