@@ -40,4 +40,4 @@ $
 c^2 = a^2 + b^2
 $
 
-Thus, the theorem is proven. \(\square\)
+Thus, the theorem is proven $\square$.
