@@ -7,7 +7,7 @@ description: We give a brief overview of optimal stopping problems and it's rele
 ---
 
 
-[![Car Salesman Problem](/posts/figs/optimal-stopping/market.svg)]
+![Car Salesman Problem](/assets/images/optimal-stopping/market.svg)
 
 ## How to be a Good Car Salesman
 Let's say that you put your car on the market and line of willing customers forms to buy your car. Each buyer has a purchase price that they are willing to spend; however this information is not available to you. When a customer is at the front of the line, you have the option of accepting the price that the customer offers, or to reject their offer and move on to the next customer. All rejected customers leave the market permanently and if you accept the offer, then the car is sold to that customer for their bargaining price. Now the question is, *how should you go about selling the car?* Accepting too early means missing out on future potential customers, but accepting too late means missing out on previous customers.
@@ -48,7 +48,7 @@ In this case the best strategy can guarantee a probability of $\frac{1}{e} \sim 
 
 
 
-
+<!-- 
 
 > wef.  
 > wef.  
@@ -87,4 +87,4 @@ $
 c^2 = a^2 + b^2
 $
 
-Thus, the theorem is proven $\square$.
+Thus, the theorem is proven $\square$. -->
