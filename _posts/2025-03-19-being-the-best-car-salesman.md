@@ -39,11 +39,17 @@ Let there be two treatments for a disease, an experimental treatment **A**, in w
 
 Let's revisit the car salesman problem and make it a little more formal. Consider a set of $n$ buyers where each buyer's purchase price is a random variable $X_i$ for \(i \in \left\{1, \dots, n \right\} \)
 
-$i \in \left\{1, \dots, n \right\}$
+$i \in \\{1, \dots, n \\}$
+
+$$ i \in \\{1, \dots, n \\} $$
+
+$$ i \in \{1, \dots, n \} $$
+
+$$ i \in \left\{1, \dots, n \right\} $$
 
  (We remark that you don't know what order the customers will line up in). The distributions of each of the random variables is known to you (for example, you have some knowledge on the customer demand), but the exact purchase price realizations are not known to you.
 
-The exact customer selection process is as follows. You begin the process, where $i = 1$ denotes the start of the line [^1]. At each step $i$ of the line, you are able to witness the $i$ th's customer's purchase price realization $x_i \sim X_i$. Again, you are able to either accept $x_i$ (the realized purchase price) or go on to the next customer $i+1$.
+The exact customer selection process is as follows. You begin the process, where $i = 1$ denotes the start of the line. At each step $i$ of the line, you are able to witness the $i$ th's customer's purchase price realization $x_i \sim X_i$. Again, you are able to either accept $x_i$ (the realized purchase price) or go on to the next customer $i+1$.
 
 To assess the performance of the your decision strategy, we compare expected profit in comparison to the case where you knew all of the realizations $ \{x_i\} l_{i \leq n}$ before hand (and not just the distributions $X_i l_{i \leq n}$ ). In the case of full information, the profit is the maximum $\max_i x_i \sim X_{\max} \doteq \max(X_1, \dots, X_n)$. It was shown in the seminal paper in [(Krengel 1978)](https://projecteuclid.org/journalArticle/Download?urlid=bams%2F1183538915 "On semiamarts, amarts, and processes with finite value") that there exists a decision rule that can guarantee the expected payoff of $\frac{1}{2} \mathbb{E}[X_{\max}]$. In fact, no other customer selection strategy can do better, by the following example. 
 
