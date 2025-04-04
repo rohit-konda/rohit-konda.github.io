@@ -37,7 +37,11 @@ Let there be two treatments for a disease, an experimental treatment **A**, in w
 
 ## Revisiting the Car Salesman Problem
 
-Let's revisit the car salesman problem and make it a little more formal. Consider a set of $n$ buyers where each buyer's purchase price is a random variable $X_i$ for $i \in \backslash\{1, \dots, n \backslash\}$ (We remark that you don't know what order the customers will line up in). The distributions of each of the random variables is known to you (for example, you have some knowledge on the customer demand), but the exact purchase price realizations are not known to you.
+Let's revisit the car salesman problem and make it a little more formal. Consider a set of $n$ buyers where each buyer's purchase price is a random variable $X_i$ for \(i \in \left\{1, \dots, n \right\} \)
+
+$i \in \left\{1, \dots, n \right\}$
+
+ (We remark that you don't know what order the customers will line up in). The distributions of each of the random variables is known to you (for example, you have some knowledge on the customer demand), but the exact purchase price realizations are not known to you.
 
 The exact customer selection process is as follows. You begin the process, where $i = 1$ denotes the start of the line [^1]. At each step $i$ of the line, you are able to witness the $i$ th's customer's purchase price realization $x_i \sim X_i$. Again, you are able to either accept $x_i$ (the realized purchase price) or go on to the next customer $i+1$.
 
