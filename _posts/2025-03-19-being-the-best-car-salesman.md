@@ -1,5 +1,5 @@
 ---
-title: Designing Optimal Markets
+title: Being the Best Car Salesman
 tags: [Operations Research]
 style: 
 color: 
