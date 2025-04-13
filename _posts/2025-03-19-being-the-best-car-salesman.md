@@ -45,7 +45,9 @@ To assess the performance of the your decision strategy, we compare expected pro
 
 
 #### Example.
-Let there be two customers with the purchase price $X_1 = 1$ with full probability and $X_2 = \frac{1}{\varepsilon}$ for some probability $0 < \varepsilon \ll 1$ and $0$ otherwise. A car salesman can either pick customer 1 or customer 2 and get an expected payoff of $1$. If you as the car salesman knows the realizations, you can guarantee a payoff of $\mathbb{E}[X_{\max}] = P(x_1 \geq x_2) \cdot \frac{1}{\varepsilon} +  P(x_2 \geq x_1) \cdot 1 = 2 - \varepsilon$. The your strategy does not matter in this scenario - if you doesn't know the purchase price realizations, you are forced to incur the $\frac{1}{2}$ factor penalty.
+Let there be two customers with the purchase price $X_1 = 1$ with full probability and $X_2 = \frac{1}{\varepsilon}$ for some probability $0 < \varepsilon \ll 1$ and $0$ otherwise. A car salesman can either pick customer 1 or customer 2 and get an expected payoff of $1$. If you as the car salesman knows the realizations, you can guarantee a payoff of 
+$$\mathbb{E}[X_{\max}] = P(x_1 \geq x_2) \cdot \frac{1}{\varepsilon} +  P(x_2 \geq x_1) \cdot 1 = 2 - \varepsilon.$$ 
+Your strategy does not matter in this scenario - if you doesn't know the purchase price realizations, you are forced to incur the $\frac{1}{2}$ factor penalty.
 
 ### A Simple Optimal Strategy
 
